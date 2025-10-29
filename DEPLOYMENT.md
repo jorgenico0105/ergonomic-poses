@@ -10,6 +10,11 @@ Esta guía te ayudará a desplegar tu API de Análisis Postural en Render.
    - Cloudinary (cloud_name, api_key, api_secret)
    - OpenAI (api_key)
 
+## ⚠️ IMPORTANTE: Versión de Python
+
+Este proyecto **requiere Python 3.11** porque MediaPipe no es compatible con Python 3.13+.
+Los archivos `.python-version` y `render.yaml` ya están configurados correctamente.
+
 ## 🚀 Pasos para Desplegar
 
 ### 1. Preparar el Repositorio
